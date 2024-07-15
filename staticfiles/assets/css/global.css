@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --xs-xsmall-text: 'Helvetica Neue', Arial, sans-serif;
+
+  /* font sizes */
+  --xs-xsmall-text-size: 0.75rem;
+  --caption-caption-size: 0.825rem;
+  --base-base-text-size: 0.875rem;
+  --small-small-text-bold-size: 0.78rem;
+  --display-d5-size: 1.2rem;
+  --display-d3-size: 2.2rem;
+
+  /* Colors */
+  --dark-text-dark-text-300: #8d8d8d;
+  --black-bg-black-bg-3: #1f1f1f;
+  --primary-primary600: #ffd700;
+  --white-bg-white-bg-2: #f5f5f5;
+  --white-bg-white-bg-3: #ebebeb;
+  --dark-text-dark-text-100: #d1d1d1;
+  --accent-colors-error-error500: #ff6b6b;
+  --black-bg-black-bg-1: #2e2e2e;
+  --color-white: #fff;
+
+  /* Gaps */
+  --gap-5xl: 1.5rem;
+  --gap-5xs: 0.5rem;
+  --gap-2xs: 0.687rem;
+  --gap-base: 1rem;
+
+  /* Paddings */
+  --padding-xl: 1.25rem;
+  --padding-xs: 0.55rem;
+  --padding-5xl: 1.5rem;
+  --padding-sm: 0.4rem;
+  --padding-base: 0.8rem;
+  --padding-11xs: 0.125rem;
+  --padding-mini: 0.937rem;
+  --padding-5xs: 0.5rem;
+  --padding-smi: 0.812rem;
+  --padding-3xs: 0.625rem;
+  --padding-4xl: 1.437rem;
+}

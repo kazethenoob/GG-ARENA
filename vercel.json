@@ -1,13 +1,24 @@
 {
-    "builds": [{
+    "builds": [
+      {
         "src": "GGarena/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
-    }],
+      },
+      {
+        "src": "staticfiles/**/*",
+        "use": "@vercel/static"
+      }
+    ],
     "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "GGarena/wsgi.py"
-        }
+      {
+        "src": "/static/(.*)",
+        "dest": "/staticfiles/$1"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "GGarena/wsgi.py"
+      }
     ]
-}
+  }
+

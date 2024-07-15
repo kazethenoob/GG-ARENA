@@ -1,0 +1,372 @@
+.sign-up {
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.sign-up .div {
+  background-color: var(--black-bgblack-bg-3);
+  width: 1440px;
+  height: 820px;
+  position: relative;
+}
+
+.sign-up .rectangle {
+  position: absolute;
+  width: 704px;
+  height: 820px;
+  top: 0;
+  left: 736px;
+  object-fit: cover;
+}
+
+.sign-up .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  position: absolute;
+  top: 64px;
+  left: 95px;
+}
+
+.sign-up .frame-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--display-d3-font-family);
+  font-weight: var(--display-d3-font-weight);
+  color: var(--white-bgwhite-bg-2);
+  font-size: var(--display-d3-font-size);
+  letter-spacing: var(--display-d3-letter-spacing);
+  line-height: var(--display-d3-line-height);
+  white-space: nowrap;
+  font-style: var(--display-d3-font-style);
+}
+
+.sign-up .p {
+  position: relative;
+  width: fit-content;
+  font-family: var(--small-small-text-font-family);
+  font-weight: var(--small-small-text-font-weight);
+  color: var(--dark-textdark-text-100);
+  font-size: var(--small-small-text-font-size);
+  letter-spacing: var(--small-small-text-letter-spacing);
+  line-height: var(--small-small-text-line-height);
+  white-space: nowrap;
+  font-style: var(--small-small-text-font-style);
+}
+
+.sign-up .frame-3 {
+  display: flex;
+  flex-direction: column;
+  width: 545px;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .frame-4 {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .alt-login {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 15px 16px 12px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--black-bgblack-bg-3);
+}
+
+.sign-up .icon {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 10px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.sign-up .img {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.sign-up .div-wrapper {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 13px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--black-bgblack-bg-1);
+}
+
+.sign-up .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--base-base-text-font-family);
+  font-weight: var(--base-base-text-font-weight);
+  color: var(--white-bgwhite-bg-2);
+  font-size: var(--base-base-text-font-size);
+  letter-spacing: var(--base-base-text-letter-spacing);
+  line-height: var(--base-base-text-line-height);
+  white-space: nowrap;
+  font-style: var(--base-base-text-font-style);
+}
+
+.sign-up .icon-2 {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .frame-5 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--display-d5-font-family);
+  font-weight: var(--display-d5-font-weight);
+  color: var(--dark-textdark-text-100);
+  font-size: var(--display-d5-font-size);
+  letter-spacing: var(--display-d5-letter-spacing);
+  line-height: var(--display-d5-line-height);
+  white-space: nowrap;
+  font-style: var(--display-d5-font-style);
+}
+
+.sign-up .frame-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 23px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .frame-6 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .group-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 444.03px;
+  align-items: flex-start;
+  gap: 25px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .group {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 87px;
+}
+
+.sign-up .frame-7 {
+  display: flex;
+  flex-direction: column;
+  width: 444.03px;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+}
+
+.sign-up .name {
+  position: relative;
+  align-self: stretch;
+  height: 23px;
+  margin-top: -1px;
+  font-family: var(--small-small-text-bold-font-family);
+  font-weight: var(--small-small-text-bold-font-weight);
+  color: #ffffff;
+  font-size: var(--small-small-text-bold-font-size);
+  letter-spacing: var(--small-small-text-bold-letter-spacing);
+  line-height: var(--small-small-text-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--small-small-text-bold-font-style);
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.sign-up .input-field {
+  display: flex;
+  height: 56px;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 20px 14px 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: var(--black-bgblack-bg-1);
+}
+
+.sign-up .group-2 {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 28px;
+}
+
+.sign-up .frame-8 {
+  display: flex;
+  width: 408px;
+  align-items: center;
+  gap: 11px;
+  position: relative;
+}
+
+.sign-up .text-wrapper-4 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: var(--base-base-text-font-family);
+  font-weight: var(--base-base-text-font-weight);
+  color: var(--dark-textdark-text-300);
+  font-size: var(--base-base-text-font-size);
+  letter-spacing: var(--base-base-text-letter-spacing);
+  line-height: var(--base-base-text-line-height);
+  font-style: var(--base-base-text-font-style);
+}
+
+.sign-up .name-2 {
+  position: relative;
+  align-self: stretch;
+  height: 23px;
+  margin-top: -1px;
+  font-family: var(--small-small-text-bold-font-family);
+  font-weight: var(--small-small-text-bold-font-weight);
+  color: #ffffff;
+  font-size: var(--small-small-text-bold-font-size);
+  letter-spacing: var(--small-small-text-bold-letter-spacing);
+  line-height: var(--small-small-text-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--small-small-text-bold-font-style);
+}
+
+.sign-up .primary-large {
+  display: flex;
+  width: 337px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 48px;
+  position: relative;
+  flex: 0 0 auto;
+  background: linear-gradient(180deg, rgb(255, 215, 0) 0%, rgb(255, 235, 127.5) 100%);
+}
+
+.sign-up .register-now-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .register-now {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--base-base-text-font-family);
+  font-weight: var(--base-base-text-font-weight);
+  color: var(--black-bgblack-bg-3);
+  font-size: var(--base-base-text-font-size);
+  letter-spacing: var(--base-base-text-letter-spacing);
+  line-height: var(--base-base-text-line-height);
+  white-space: nowrap;
+  font-style: var(--base-base-text-font-style);
+}
+
+.sign-up .frame-9 {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--caption-caption-font-family);
+  font-weight: var(--caption-caption-font-weight);
+  color: var(--dark-textdark-text-100);
+  font-size: var(--caption-caption-font-size);
+  letter-spacing: var(--caption-caption-letter-spacing);
+  line-height: var(--caption-caption-line-height);
+  white-space: nowrap;
+  font-style: var(--caption-caption-font-style);
+}
+
+.sign-up .menu {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2px;
+  padding: 5px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.sign-up .join-a-community {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--XS-xsmall-text-font-family);
+  font-weight: var(--XS-xsmall-text-font-weight);
+  color: var(--white-bgwhite-bg-3);
+  font-size: var(--XS-xsmall-text-font-size);
+  letter-spacing: var(--XS-xsmall-text-letter-spacing);
+  line-height: var(--XS-xsmall-text-line-height);
+  white-space: nowrap;
+  font-style: var(--XS-xsmall-text-font-style);
+}
+
+.sign-up .rectangle-2 {
+  position: relative;
+  width: 1px;
+  height: 2px;
+  background-color: var(--primaryprimary-600);
+  border-radius: 18px;
+  opacity: 0;
+}
